@@ -43,6 +43,7 @@ if(number > 0) {
     console.log ('Numarul ales este 0');
 }
 
+// switch
 const dayOfTheWeek = 11;
 
 switch (dayOfTheWeek) {
@@ -56,3 +57,21 @@ switch (dayOfTheWeek) {
         console.log('Nu stiu ce zi a saptamanii este aceasta');
         break;
 }
+
+// BUCLE - while
+const numbers = [2, 99, 34, 25, 1, -23];
+
+let smallestNumber = Number.MAX_SAFE_INTEGER;
+let currentIndex = 0;
+
+while (currentIndex < numbers.length) {
+    if (numbers[currentIndex] < smallestNumber) {
+        smallestNumber = numbers[currentIndex];
+    }
+
+    currentIndex++;
+
+}
+
+console.log('Cel mai mic numar din lista este: ', smallestNumber);
+
