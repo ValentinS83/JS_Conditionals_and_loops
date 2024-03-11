@@ -31,3 +31,28 @@ if (isChoreDone && hasEaten) {
         }
     }
 }
+
+// if ...else if...else
+
+let number = -13;
+if(number > 0) {
+    console.log ('Numarul ales este pozitiv');
+} else if (number < 0) {
+    console.log ('Numarul ales este negativ');
+} else {
+    console.log ('Numarul ales este 0');
+}
+
+const dayOfTheWeek = 11;
+
+switch (dayOfTheWeek) {
+    case 1:
+        console.log ('Ziua este luni');
+        break;
+    case 2:
+        console.log ('Ziua sapatamanii este Marti');
+        break;
+    default:
+        console.log('Nu stiu ce zi a saptamanii este aceasta');
+        break;
+}
