@@ -75,3 +75,10 @@ while (currentIndex < numbers.length) {
 
 console.log('Cel mai mic numar din lista este: ', smallestNumber);
 
+// BUCLE - do...while
+let n = 10;
+let num = 0;
+do {
+    num++;
+    console.log(num);
+} while (num < n);
